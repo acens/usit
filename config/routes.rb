@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :contacts, only: [:new, :create]
   resources :tours, only: [:new, :create, :edit, :update, :destroy]
   resources :videos, only: [:new, :create, :edit, :update, :destroy]
+  root "home#index"
 end

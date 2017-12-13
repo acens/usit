@@ -11,9 +11,13 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require jquery3
-//= require popper
-//= require bootstrap
+//= require modernizr-2.6.2.min
+//= require jquery.min
+//= require jquery.easing.1.3
+//= require bootstrap.min
+//= require jquery.waypoints.min
+//= require jquery.magnific-popup.min
+//= require main
 //= require bootstrap-notify.min
 //= require turbolinks
 //= require_tree .
