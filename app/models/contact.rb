@@ -1,5 +1,5 @@
 class Contact < ApplicationRecord
-  include MailForm::Delivery
+  # include MailForm::Delivery
   belongs_to :knowledge
 
   attribute :name, validate: true
