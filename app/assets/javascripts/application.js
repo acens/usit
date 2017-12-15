@@ -19,5 +19,6 @@
 //= require jquery.magnific-popup.min
 //= require main
 //= require bootstrap-notify.min
+//= require jquery.nav
 //= require turbolinks
 //= require_tree .
