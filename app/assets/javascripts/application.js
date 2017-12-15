@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require active_admin/base
 //= require modernizr-2.6.2.min
-//= require jquery.min
 //= require jquery.easing.1.3
 //= require bootstrap.min
 //= require jquery.waypoints.min
