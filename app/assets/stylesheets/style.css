@@ -148,6 +148,17 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 
+.fh5co-nav i {
+  color: #b5c5dd;
+}
+
+.fh5co-nav p {
+  padding: 5px 10px;
+  color: #dfd7d7;
+  font-size: 12px;
+  font-weight: normal;
+}
+
 .fh5co-nav ul {
   padding: 0;
   margin: 2px 0 0 0;
