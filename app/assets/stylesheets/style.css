@@ -571,6 +571,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*---------feature------*/
+
+.program{
+
+}
+
 .img-icon{
 	width:50px;
 	height:50px;
@@ -793,15 +798,19 @@ h1, h2, h3, h4, h5, h6, figure {
 
 /*---------get in touch--------*/
 #fh5co-started {
-  background: rgba(42, 54, 59, 0.9);
+  background-image: url(../images/IMG-20171220-WA0031.jpg);
+  background: rgba(0, 0, 0, 0.5);
+  background-size: 100% 100%;
+
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: bold;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
 }
 #fh5co-started .btn {
   height: 54px;
@@ -821,8 +830,28 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 
+#sections{
+  background: white;
+  /* padding: 10px; */
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+}
+
+.parent{
+  position: relative !important;
+  /* background-color: red; */
+}
+
+.child{
+  /* background-color: blue; */
+  position: absolute !important;
+  transform: translateY(-50%)  !important;
+  top: 50%  !important;
+}
+
 .fh5co-bg-section {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(42, 54, 59, 0.9);
 }
 
 /*-------------button--------------*/
