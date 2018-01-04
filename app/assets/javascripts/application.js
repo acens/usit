@@ -12,13 +12,13 @@
 //
 //= require rails-ujs
 //= require active_admin/base
-//= require modernizr-2.6.2.min
-//= require jquery.easing.1.3
+//= require jquery
 //= require bootstrap.min
-//= require jquery.waypoints.min
-//= require jquery.magnific-popup.min
-//= require main
+//= require jquery.parallax
+//= require owl.carousel.min
+//= require smoothscroll
+//= require wow.min
+//= require custom
 //= require bootstrap-notify.min
-//= require jquery.nav
 //= require turbolinks
 //= require_tree .
