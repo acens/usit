@@ -63,6 +63,10 @@ a {
   margin-bottom: 32px;
 }
 
+#navbar6{
+	color: rgb(97, 174, 244);
+}
+
 #overview,
 #register {
   padding-top: 14rem;
@@ -93,7 +97,8 @@ footer {
 }
 
 #intro .btn,
-#contact .btn {
+#contact .btn,
+#video .btn {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -109,12 +114,14 @@ footer {
 }
 
 #intro .btn-danger,
-#contact .btn-danger {
-    background: #f2545f;
+#contact .btn-danger,
+#video .btn {
+    background: rgb(97, 174, 244);
     border-color: transparent;
 }
 
-#contact .btn {
+#contact .btn,
+#video .btn {
   border-radius: 100px;
 }
 
@@ -124,7 +131,8 @@ footer {
   color: #ffffff;
 }
 
-#contact .btn-danger:hover {
+#contact .btn-danger:hover,
+#video .btn-danger:hover {
   background: #222;
 }
 
@@ -262,7 +270,7 @@ footer {
     Intro section
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/background-main.jpeg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -304,7 +312,7 @@ footer {
 }
 
 #detail .fa {
-  color: #f2545f;
+  color: rgb(97, 174, 244);
   font-size: 48px;
 }
 
@@ -440,7 +448,7 @@ footer {
 }
 
 #register input[type="submit"] {
-  background: #f2545f;
+  background: rgb(97, 174, 244);
   border-radius: 100px;
   border: none;
   color: #ffffff;

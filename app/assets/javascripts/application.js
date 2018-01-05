@@ -22,3 +22,12 @@
 //= require bootstrap-notify.min
 //= require turbolinks
 //= require_tree .
+
+[20:24, 5/1/2018] Gleidson: $(document).ready(function() {
+  	$('select').css('color','#ffffff');
+    $('select').change(function() {
+       var current = $('#select').val();
+      $('select').css('color','#ffffff');
+
+    });
+});
