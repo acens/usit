@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require active_admin/base
+// require active_admin/base
 //= require jquery
 //= require bootstrap.min
 //= require jquery.parallax
@@ -20,10 +20,13 @@
 //= require wow.min
 //= require custom
 //= require bootstrap-notify.min
+//= require jquery.magnific-popup.min
+//= require magnific-popup-options
 //= require turbolinks
 //= require_tree .
 
-[20:24, 5/1/2018] Gleidson: $(document).ready(function() {
+$(document).ready(function() {
+
   	$('select').css('color','#ffffff');
     $('select').change(function() {
        var current = $('#select').val();

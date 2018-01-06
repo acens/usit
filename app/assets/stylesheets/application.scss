@@ -1,10 +1,14 @@
  @import "bootstrap.min";
  @import "animate";
+ @import "magnific-popup";
  @import "font-awesome.min";
  @import "owl.theme";
  @import "owl.carousel";
  @import "flip";
+ @import "gallery";
  @import "style";
+
+
 
 .img-icon {
   background-position: center;
@@ -25,8 +29,18 @@
   background-image: url(icon/icon-place.svg);
 }
 
-option {color:black} //Ou outra cor escura
+#register option {color:black} //Ou outra cor escura
 
-select {
+#register select {
   color: white !important;
+}
+
+
+#intro h1,
+#intro h2,
+#intro h3,
+#intro h4,
+#intro h5,
+#intro h6 {
+  text-shadow: 1px 1px black;
 }
