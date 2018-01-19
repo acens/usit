@@ -2,7 +2,9 @@ ActiveAdmin.register Tour do
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :local, :data, :vagas, :photo, :description
+permit_params :local, :date_trip, :vacancy, :photo, :description
+# default_fields :local, :date_trip, :vacancy, :photo, :description
+
 #
 # or
 #
@@ -11,6 +13,14 @@ permit_params :local, :data, :vagas, :photo, :description
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
+
+  # index do
+  #   id_column
+  #   column :local
+  #   column :date_trip
+  #   column :description
+  # end
+
   form title: 'New Tour' do |f|
    f.inputs 'Create new tour' do
       f.input :local
