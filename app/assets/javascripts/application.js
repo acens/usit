@@ -33,11 +33,11 @@
 
 $(document).ready(function() {
 
-  	$('select').css('color','#ffffff');
-    $('select').change(function() {
-       var current = $('#select').val();
-      $('select').css('color','#ffffff');
-    });
+  	// $('select').css('color','#ffffff');
+    // $('select').change(function() {
+    //    var current = $('#select').val();
+    //   $('select').css('color','#ffffff');
+    // });
 
     $("#owl-images").owlCarousel({
       items:1,
