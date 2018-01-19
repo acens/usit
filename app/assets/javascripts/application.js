@@ -16,6 +16,12 @@
 //= require bootstrap.min
 //= require jquery.parallax
 //= require owl.carousel.min
+//= require owl.animate.js
+//= require owl.autoplay
+//= require owl.autoheight.js
+//= require owl.hash.js
+//= require owl.lazyload.js
+//= require owl.navigation.js
 //= require smoothscroll
 //= require wow.min
 //= require custom
@@ -31,6 +37,24 @@ $(document).ready(function() {
     $('select').change(function() {
        var current = $('#select').val();
       $('select').css('color','#ffffff');
-
     });
+
+    $("#owl-images").owlCarousel({
+      items:1,
+      margin: 10,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause:true
+    });
+
+    $("#owl-testimonials").owlCarousel({
+      items:1,
+      margin: 10,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout: 2500,
+      autoplayHoverPause:true
+    });
+
 });

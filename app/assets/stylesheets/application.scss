@@ -2,8 +2,8 @@
  @import "animate";
  @import "magnific-popup";
  @import "font-awesome.min";
- @import "owl.theme";
- @import "owl.carousel";
+ @import "owl.theme.default.min";
+ @import "owl.carousel.min";
  @import "flip";
  @import "gallery";
  @import "style";
@@ -43,4 +43,9 @@
 #intro h5,
 #intro h6 {
   text-shadow: 1px 1px black;
+}
+
+
+.text-cap {
+  text-transform: capitalize;
 }
