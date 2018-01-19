@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
 
+Knowledge.delete_all
 Knowledge.create!(id: 1, level: "Basic")
-Knowledge.create!(id: 2, level: "intermediate")
+Knowledge.create!(id: 2, level: "Intermediate")
 Knowledge.create!(id: 3, level: "Advanced")
