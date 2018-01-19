@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171214030747) do
+ActiveRecord::Schema.define(version: 20180119042931) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -35,6 +35,8 @@ ActiveRecord::Schema.define(version: 20171214030747) do
     t.integer "sign_in_count", default: 0, null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
+    t.string "current_sign_in_ip"
+    t.string "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_admin_users_on_email", unique: true
@@ -60,8 +62,8 @@ ActiveRecord::Schema.define(version: 20171214030747) do
 
   create_table "tours", force: :cascade do |t|
     t.string "local"
-    t.datetime "data"
-    t.integer "vagas"
+    t.datetime "date_trip"
+    t.integer "vacancy"
     t.string "photo"
     t.text "description"
     t.datetime "created_at", null: false
