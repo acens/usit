@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   resources :tours, only: [:new, :create, :edit, :update, :destroy]
   resources :videos, only: [:new, :create, :edit, :update, :destroy]
-  # resources :contacts
+  resources :contacts
   resources :gallery, only: [:index]
   resources :investment, only: [:index]
   resources :accommodation, only: [:index]
