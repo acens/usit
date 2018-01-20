@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # resources :contacts, only: [:new, :create]
 
 
-  # get "contacts/new" => "contacts#new"
+  get "contacts/new" => "contacts#new"
   match '/contacts', to: 'contacts#new', via: 'get'
   resources "contacts", only: [:new, :create]
 

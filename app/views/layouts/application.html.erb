@@ -8,7 +8,8 @@
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload', 'data-turbolinks-eval': 'false' %>
+
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
 
   </head>
@@ -17,8 +18,15 @@
     <!-- =========================
          PRE LOADER
     ============================== -->
+    <!-- <div class="pre-loader">
+      <span class="preloader-gif">
+        <div class="sk-rotating-plane"></div>
+      </span>
+
+    </div> -->
+<!-- <div class="pre-loader"><span class="preloader-gif"></span></div> -->
     <div class="preloader">
-    	<div class="sk-rotating-plane"></div>
+      <div class="sk-rotating-plane"></div>
     </div>
 
     <div id="page">
@@ -26,6 +34,5 @@
       <%= yield %>
     </div>
     <%= render partial: "layouts/notify" %>
-
   </body>
 </html>

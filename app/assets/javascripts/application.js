@@ -27,11 +27,16 @@
 //= require bootstrap-notify.min
 //= require jquery.magnific-popup.min
 //= require magnific-popup-options
-//= require turbolinks
+//= require turbolinks_transitions
 //= require_tree .
+
 
 $(document).ready(function() {
 
+
+  $(window).on('load',function(){
+    $('.pre-loader').delay(400).fadeOut(500);
+  });
   	// $('select').css('color','#ffffff');
     // $('select').change(function() {
     //    var current = $('#select').val();

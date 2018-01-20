@@ -9,6 +9,31 @@
  @import "style";
 
 
+.navbar {
+  background-color: black !important;
+}
+
+ .pre-loader{
+     position: fixed;
+     top:0;
+     left:0;
+     bottom: 0;
+     right: 0;
+     background: #fff;
+     z-index: 99999;
+ }
+
+.pre-loader .preloader-gif{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+    // background-color: black;
+    background: url('load.gif') no-repeat;
+}
 
 .img-icon {
   background-position: center;
