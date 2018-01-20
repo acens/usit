@@ -5,77 +5,21 @@
   			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center animated" style="visibility: visible; animation-name: bounceIn;">
   				<div class="section-title">
   					<h2>Gallery</h2>
-  					<p>Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
   				</div>
   			</div>
-<!--  -->
-      <div class = "row">
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box " data-animate-effect="fadeIn">
-          <a href="images/medium/europe/city-lights-night-water.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/city-lights-night-water.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/france-landmark-lights-night.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/france-landmark-lights-night.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/pexels-photo-colloseum.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/pexels-photo-colloseum.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
       </div>
-
-<!--  -->
-      <div class = "row">
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/people-eiffel-tower-france-landmark.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/people-eiffel-tower-france-landmark.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/pexels-photo.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/pexels-photo.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/pexels-photo-27954.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/pexels-photo-27954.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-      </div>
-
-<!--  -->
-      <div class = "row">
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/pexels-photo2.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/pexels-photo2.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/photo-1438893254896-34a5db3e4a8f.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/photo-1438893254896-34a5db3e4a8f.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-          <a href="images/medium/europe/photo-1460751164792-4bafe094f306.jpg" class="image-popup">
-            <img alt="" src="images/medium/europe/photo-1460751164792-4bafe094f306.jpg" class="img-responsive">
-            <h3>Lorem Ipsum</h3>
-          </a>
-        </div>
-      </div>
-
-
-  			</div>
+        <% @galleries.each_slice(3) do |galleries| %>
+          <div class="row">
+            <% galleries.each do |gallery| %>
+              <div class="col-md-4 col-sm-12 fh5co-project animate-box " data-animate-effect="fadeIn">
+                <a href="<%= gallery.photo(:medium) %>" class="image-popup">
+                  <%= image_tag gallery.photo(:medium), class: "img-responsive" %>
+                  <h3><%= gallery.title %></h3>
+                </a>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
   		</div>
   </section>
 </div>
