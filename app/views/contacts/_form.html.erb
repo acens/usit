@@ -1,5 +1,13 @@
 <div class="row">
-  <%= form_for @contact do |f| %>
+  <div>
+    <% flash.each do |key, value| %>
+      <div>
+        <a href="#" data-dismiss="alert">×</a>
+          <%= value %>
+      </div>
+    <% end %>
+  </div>
+  <%= simple_form_for @contact, :html => {:class => '' } do |f| %>
     <div class="contact_detail">
       <div class="section-title">
         <h2 class="text-center">Keep in touch</h2>
@@ -14,28 +22,16 @@
         <%= f.telephone_field :phone, class: "form-control", id: "phone", placeholder: "Phone Number(Ex: 85 91234 4321)" %>
       </div>
       <div class="form-group col-md-3">
-        <%= f.collection_select :knowledge_id, Knowledge.all, :id, :level,
-            {prompt: "English Knowledge"}, {class: "form-control"}  %>
+        <%= f.select(:knowledge,[['Basic','Basic'],['Intermediate','Intermediate'],['Advanced', 'Advanced']],{}, {class:"form-control"})%>
       </div>
-      <!-- <div class="form-group col-md-offset-3 col-md-6">
-        <%= f.text_field :language, class: "form-control", placeholder: "Language of conversation" %>
-      </div> -->
-
       <div class="form-group col-md-offset-3 col-md-6">
-        <%= f.text_area :history, name: "message", id: "message", row: 10, class: "form-control",
+        <%= f.text_area :message, id: "message", row: 10, class: "form-control",
             placeholder: "Your experiences with the language" %>
       </div>
       <div class="form-group col-md-offset-3 col-md-6">
         <%= f.submit "Send", class: "btn btn-primary col-xs-12 col-md-offset-6 col-md-6" %>
       </div>
-      <!-- <form action="#" method="post">
-        <input name="name" type="text" class="form-control" id="name" placeholder="Name">
-          <input name="email" type="email" class="form-control" id="email" placeholder="Email">
-          <textarea name="message" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
-        <div class="col-md-6 col-sm-10">
-          <input name="submit" type="submit" class="form-control" id="submit" value="SEND">
-        </div>
-      </form> -->
     </div>
   <% end %>
 </div>
+<%= console %>

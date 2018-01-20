@@ -20,10 +20,12 @@
     <div class="preloader">
     	<div class="sk-rotating-plane"></div>
     </div>
-    
+
     <div id="page">
       <%= render "layouts/navbar" %>
       <%= yield %>
     </div>
+    <%= render partial: "layouts/notify" %>
+
   </body>
 </html>

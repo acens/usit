@@ -38,6 +38,9 @@ gem 'paperclip'
 gem 'devise'
 gem 'activeadmin'
 gem 'active_skin'
+
+gem 'mail_form'
+gem 'simple_form'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

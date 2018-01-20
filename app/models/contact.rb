@@ -1,12 +1,10 @@
-class Contact < ApplicationRecord
-  # include MailForm::Delivery
-  belongs_to :knowledge
+class Contact < MailForm::Base
 
   attribute :name, validate: true
   attribute :email, validate:  /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
-  attribute :history, validate: true
-  attribute :language, validaate: true
-  attribute :knowledge_id, validaate: true
+  attribute :message, validate: true
+  attribute :knowledge, validate: true
+  attribute :phone, validate: true
 
   def headers
     {

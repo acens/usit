@@ -17,3 +17,5 @@
 /yarn-error.log
 
 .byebug_history
+db/development.sqlite3
+/config/app_environment_variables.rb
