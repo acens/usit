@@ -47,12 +47,12 @@ Rails.application.configure do
 
   # Gmail SMTP server setup
   ActionMailer::Base.smtp_settings = {
-    :address => "smtp.gmail.com",
+    :address => ENV["MAIL_HOST"] # gmail: smtp.gmail.com", outlook: smtp.live.com # outlook
     :enable_starttls_auto => true,
     :port => 587,
     :authentication => :plain,
-    :user_name => ENV["GMAIL_USERNAME"],
-    :password => ENV["GMAIL_PASSWORD"]
+    :user_name => ENV["MAIL_USERNAME"],
+    :password => ENV["MAIL_PASSWORD"]
   }
 
 

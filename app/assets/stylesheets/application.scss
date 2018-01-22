@@ -9,6 +9,12 @@
  @import "style";
 
 
+#intro h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  line-height: 0.5;
+}
+
 .navbar {
   background-color: black !important;
 }
