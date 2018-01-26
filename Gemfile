@@ -34,6 +34,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bootstrap', '~> 4.0.0.beta2.1'
 # gem 'font-awesome-sass'
 gem 'paperclip'
+gem 'paperclip-cloudinary'
 
 gem 'devise'
 gem 'activeadmin'
