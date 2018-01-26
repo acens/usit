@@ -357,10 +357,12 @@ footer {
 
 
 
+
 /*---------------------------------------
     Video section
 -----------------------------------------*/
-#video iframe {
+#video iframe,
+#detail iframe {
   border: none;
 }
 
@@ -734,7 +736,8 @@ footer {
 
   #intro { height: 65vh; }
 
-  #video iframe {
+  #video iframe,
+	#detail iframe {
     margin-top: 42px;
   }
 
