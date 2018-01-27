@@ -8,7 +8,9 @@
  @import "gallery";
  @import "style";
 
-
+.navbar img {
+  height: 40px;
+}
 #intro h2 {
   font-family: 'Open Sans', sans-serif;
   text-transform: none;
@@ -150,6 +152,10 @@ text-align: left;
 
 #detail .ion-ios-world {
   font-size: 48px;
+}
+
+#intro {
+  padding-top: 14rem;
 }
 
 #venue,
