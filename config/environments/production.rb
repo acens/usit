@@ -86,6 +86,7 @@ Rails.application.configure do
     address: "smtp.live.com",
     enable_starttls_auto: true,
     port: 587,
+    domain: 'sgo6.herokuapp.com',
     authentication: :plain,
     username: ENV["MAIL_USERNAME"],
     password: ENV["MAIL_PASSWORD"]
