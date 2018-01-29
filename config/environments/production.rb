@@ -79,7 +79,7 @@ Rails.application.configure do
 
   # Gmail SMTP server setup
   ActionMailer::Base.smtp_settings = {
-    :address => "smtp-mail.outlook.com",
+    :address => ENV["MAIL_HOST"],
     :enable_starttls_auto => true,
     :port => 587,
     domain: ENV["MAIL_DOMAIN"],
