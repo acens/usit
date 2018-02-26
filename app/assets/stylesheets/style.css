@@ -336,9 +336,11 @@ footer {
 /*---------------------------------------
    Overview  section
 -----------------------------------------*/
-#overview img {
+#overview {
   position: relative;
   padding-bottom: 32px;
+  background: url('../images/overview.jpg')100% 0 repeat-y fixed;
+  height:50vh;
 }
 
 
@@ -586,6 +588,35 @@ footer {
 #venue p {
   padding-top: 12px;
   padding-bottom: 18px;
+}
+
+.allcolums{
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+
+.colum1{
+	float: left;
+	margin: 0px 15px 0px 15px;
+	text-align: justify; width: 30%;
+	color: #66ccff;
+}
+
+.colum2{
+	float: left;
+	margin: 0px 15px 0px 0px;
+	text-align: justify; width: 30%;
+	color: #66ccff;
+}
+
+.colum3{
+	float: left;
+	margin: 0px 0px 0px 0px;
+	text-align: justify;
+	width: 30%;
+	color: #66ccff;
 }
 
 
