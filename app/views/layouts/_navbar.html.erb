@@ -7,12 +7,9 @@
 		<!-- navbar header -->
 		<div class="navbar-header">
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
 			</button>
 			<%= link_to root_url, class: "navbar-brand external" do %>
-				<%= image_tag 'logo-small.png'%>
+				<%= image_tag 'logo-medium.png'%>
 			<% end %>
 			<!-- <a href="#" class="navbar-brand">SGO <i id = "navbar6">6</i> </a> -->
 		</div>
@@ -22,14 +19,15 @@
 		<div class="collapse navbar-collapse">
 
 			<ul class="nav navbar-nav navbar-right">
-				<% if request.fullpath == root_path %>
+				<!-- <% if request.fullpath == root_path %>
 					<%= render partial: "layouts/navbar_root" %>
 				<% else %>
 					<%= render partial: "layouts/navbar_page" %>
 				<% end %>
 				<li>
 					<%= link_to "Contact", contacts_path %>
-				</li>
+				</li> -->
+				<h1 class="textnavright"> Language Immersion Tour</h1>
 				</ul>
 
 		</div>
