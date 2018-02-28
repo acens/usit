@@ -820,3 +820,48 @@ footer {
   }
 
 }
+
+.menufooter{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+a.link-footer{
+	display: inline-block;
+	width: 400px;
+	height: 170px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 800px;
+	border-bottom-left-radius: 10px;
+	margin: 0px;
+}
+
+div.footer-img{
+	width: 400px;
+	height: 170px;
+	background-color: rgb(172, 28, 28);
+	border-top-right-radius: 50px;
+	border-top-left-radius: 800px;
+	border-bottom-left-radius: 10px;
+}
+
+div.footer-img .img1{
+	position: absolute;
+
+
+}
+
+div.footer-img .img2{
+	position: absolute;
+
+}
+
+div.footer-img .img3{
+	position: absolute;
+
+}
+
+div.footer-img .img4{
+	position: absolute;
+
+}
