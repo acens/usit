@@ -840,10 +840,29 @@ div.footer-img{
 	width: 23vw;
 	height: 170px;
 	background-color: rgb(172, 28, 28);
-	border-top-right-radius: 50px;
+	/*border-top-right-radius: 50px;
 	border-top-left-radius: 800px;
-	border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;*/
+	position: relative;
+	border-radius:15px;
 }
+
+div.footer-img:after{
+	content: "";
+
+		width: 0;
+		height: 0;
+
+		position: absolute;
+
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 20px solid rgb(172, 28, 28);
+
+		bottom:-20px;
+		left: 10%;
+}
+
 
 div.footer-img .img1{
 	position: absolute;
