@@ -828,7 +828,7 @@ footer {
 
 a.link-footer{
 	display: inline-block;
-	width: 400px;
+	width: 23vw;
 	height: 170px;
 	border-top-right-radius: 50px;
 	border-top-left-radius: 800px;
@@ -837,7 +837,7 @@ a.link-footer{
 }
 
 div.footer-img{
-	width: 400px;
+	width: 23vw;
 	height: 170px;
 	background-color: rgb(172, 28, 28);
 	border-top-right-radius: 50px;
