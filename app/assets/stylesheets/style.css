@@ -7,10 +7,10 @@ http://www.templatemo.com/tm-486-new-event
 */
 
 body {
-		background: #ffffff;
+	background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-		font-weight: 400;
+	font-weight: 400;
 }
 
 
@@ -828,6 +828,7 @@ footer {
 
 a.link-footer{
 	display: inline-block;
+	text-indent: -99999px;
 	width: 23vw;
 	height: 170px;
 	border-top-right-radius: 50px;
@@ -839,7 +840,7 @@ a.link-footer{
 div.footer-img{
 	width: 23vw;
 	height: 170px;
-	background-color: rgb(172, 28, 28);
+	background-color: #83d7c8;
 	/*border-top-right-radius: 50px;
 	border-top-left-radius: 800px;
 	border-bottom-left-radius: 10px;*/
@@ -857,7 +858,7 @@ div.footer-img:after{
 
 		border-left: 20px solid transparent;
 		border-right: 20px solid transparent;
-		border-top: 20px solid rgb(172, 28, 28);
+		border-top: 20px solid #83d7c8;
 
 		bottom:-20px;
 		left: 10%;
@@ -866,8 +867,6 @@ div.footer-img:after{
 
 div.footer-img .img1{
 	position: absolute;
-
-
 }
 
 div.footer-img .img2{
