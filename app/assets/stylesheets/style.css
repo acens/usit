@@ -81,8 +81,8 @@ a {
 #program,
 #sponsors,
 #contact, footer {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #detail,
@@ -828,19 +828,20 @@ footer {
 
 a.link-footer{
 	display: inline-block;
-	text-indent: -99999px;
 	width: 23vw;
 	height: 170px;
 	border-top-right-radius: 50px;
 	border-top-left-radius: 800px;
 	border-bottom-left-radius: 10px;
 	margin: 0px;
+	position:relative;
 }
 
+
 div.footer-img{
-	width: 23vw;
+	width: 20vw;
 	height: 170px;
-	background-color: #83d7c8;
+	background-color: rgb(97, 174, 244);
 	/*border-top-right-radius: 50px;
 	border-top-left-radius: 800px;
 	border-bottom-left-radius: 10px;*/
@@ -858,20 +859,25 @@ div.footer-img:after{
 
 		border-left: 20px solid transparent;
 		border-right: 20px solid transparent;
-		border-top: 20px solid #83d7c8;
+		border-top: 20px solid rgb(97, 174, 244);
 
-		bottom:-20px;
-		left: 10%;
+		bottom:-17px;
+		left: 8%;
 }
 
 
 div.footer-img .img1{
 	position: absolute;
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+div.footer-img:hover{
+background-color: rgb(97, 174, 215);
 }
 
 div.footer-img .img2{
 	position: absolute;
-
 }
 
 div.footer-img .img3{
@@ -879,7 +885,13 @@ div.footer-img .img3{
 
 }
 
-div.footer-img .img4{
+.link-footer .footer-img .img4{
 	position: absolute;
+	padding-right: 0px;
 
+}
+
+h1.tituloF{
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
