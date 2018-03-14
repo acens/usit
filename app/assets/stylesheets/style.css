@@ -5,12 +5,17 @@ New Event
 http://www.templatemo.com/tm-486-new-event
 
 */
+html{
+	overflow-x: hidden;
+}
 
 body {
+	overflow-x: hidden;
 	background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 	font-weight: 400;
+
 }
 
 
@@ -62,7 +67,8 @@ a {
     General
 -----------------------------------------*/
 .section-title {
-  margin-bottom: 32px;
+  margin-bottom: 50px;
+  margin-top: 120px;
 }
 
 #navbar6{
@@ -828,27 +834,27 @@ footer {
 
 a.link-footer{
 	display: inline-block;
-	width: 23vw;
-	height: 170px;
-	border-top-right-radius: 50px;
-	border-top-left-radius: 800px;
-	border-bottom-left-radius: 10px;
+	border-radius:15px;
 	margin: 0px;
 	position:relative;
 }
 
 
 div.footer-img{
-	width: 20vw;
-	height: 170px;
-	background-color: rgb(97, 174, 244);
-	/*border-top-right-radius: 50px;
-	border-top-left-radius: 800px;
-	border-bottom-left-radius: 10px;*/
+	background-image: url("/images/VistoPreto.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 80px 50px;
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+	background-color: #66ccff ;
+	width: 23vw;
+	height: 80px;
 	position: relative;
 	border-radius:15px;
 }
-
+/*
 div.footer-img:after{
 	content: "";
 
@@ -864,16 +870,19 @@ div.footer-img:after{
 		bottom:-17px;
 		left: 8%;
 }
-
+ */
+ div.footer-img:hover{
+ 	background-color: rgb(97, 174, 215);
+	background-image: url("/images/VistoAzul.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 80px 50px;
+ }
 
 div.footer-img .img1{
 	position: absolute;
-	font-family: 'Poppins', sans-serif;
-    font-style: normal;
-}
+	top:50px;
 
-div.footer-img:hover{
-background-color: rgb(97, 174, 215);
 }
 
 div.footer-img .img2{
@@ -885,13 +894,20 @@ div.footer-img .img3{
 
 }
 
-.link-footer .footer-img .img4{
+div.footer-img .img4{
 	position: absolute;
 	padding-right: 0px;
 
 }
 
 h1.tituloF{
-	padding-top: 60px;
-	padding-bottom: 60px;
+	color: #222;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 30px;
+}
+
+.row{
+	box-sizing: border-box;
+  	width:100%;
 }
