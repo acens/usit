@@ -106,6 +106,7 @@ footer {
     padding-bottom: 12px;
 }
 
+
 #detail .btn,
 #intro .btn,
 #contact .btn,
@@ -348,7 +349,11 @@ footer {
   position: relative;
   padding-bottom: 32px;
   background: url('../images/overview.jpg')100% 0 repeat-y fixed;
-  height:70vh;
+  height:50vh;
+}
+
+#three{
+	background:#222;
 }
 
 
@@ -357,7 +362,7 @@ footer {
     Detail section
 -----------------------------------------*/
 #detail {
-    background: #222;
+    background: #ffffff;
     color: #ffffff;
 }
 
