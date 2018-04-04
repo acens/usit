@@ -772,7 +772,7 @@ footer {
   p {font-size: 13px;}
 
   .custom-navbar .navbar-brand {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 
   .custom-navbar .nav li a {
@@ -780,7 +780,7 @@ footer {
 	line-height: 20px;
   }
 
-  #intro { height: 65vh; }
+  #intro { height: auto; }
 
   #video iframe,
 	#detail iframe {
