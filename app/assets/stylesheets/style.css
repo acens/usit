@@ -18,6 +18,10 @@ body {
 
 }
 
+.service-info{
+	border-left-color:#66ccff;
+	border-left:10px;
+}
 
 /*---------------------------------------
     Typorgraphy
@@ -34,7 +38,7 @@ h3,h5 {
 
 h1 {
     font-size: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 h2 {
@@ -55,6 +59,7 @@ p {
     color: #707070;
     font-size: 14px;
     line-height: 24px;
+
 }
 
 a {
@@ -776,7 +781,7 @@ footer {
   }
 
   .custom-navbar .nav li a {
-    font-size: 11px;
+    font-size: 14px;
 	line-height: 20px;
   }
 
@@ -886,6 +891,7 @@ div.footer-img:after{
 
 div.footer-img .img1{
 	position: absolute;
+	background-image: url("/images/homeb.png");
 	top:50px;
 
 }

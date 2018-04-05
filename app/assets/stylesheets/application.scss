@@ -16,7 +16,8 @@
 #intro h2 {
   font-family: 'Open Sans', sans-serif;
   text-transform: none;
-  line-height: 0.5;
+  line-height: 1;
+  display: inline-block;
 }
 
 .textnavright {
@@ -101,7 +102,7 @@
 }
 
 .nome_descritivo{
-  font-size: 500%
+  font-size: 450%
 }
 
 
@@ -128,6 +129,7 @@
 #faq .row {
   margin-left: 0px;
   margin-right: 0px;
+
 }
 
 #detail .wow {
@@ -185,4 +187,15 @@ text-align: left;
 #investmentpage {
   padding-top: 14rem;
   padding-bottom: 14rem;
+}
+
+
+.fancy {
+  // width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid #66ccff 5px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
