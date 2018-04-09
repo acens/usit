@@ -63,28 +63,12 @@ $(document).ready(function() {
 
 });
 
-function change(v) {
-    if (v == "img1") {
-        img1.setAttribute('src', '/images/home-hover.png');
-    } else if (v == "img2") {
-        img2.setAttribute('src', '/images/next-hover.png');
-    } else if (v == "img3") {
-        img3.setAttribute('src', '/images/investment-hover.png');
-    } else if (v == "img4") {
-        img4.setAttribute('src', '/images/contact-hover.png');
-    }
+function change(value, element) {
+  element.setAttribute('src', value);
 }
 
-function changeReset(v) {
-    if (v == "img1") {
-        img1.setAttribute('src', '/images/home.png');
-    } else if (v == "img2") {
-        img2.setAttribute('src', '/images/next.png');
-    } else if (v == "img3") {
-        img3.setAttribute('src', '/images/investment.png');
-    } else if (v == "img4") {
-        img4.setAttribute('src', '/images/contact.png');
-    }
+function changeReset(value, element) {
+  element.setAttribute('src', value);
 }
 
 $(function() {
