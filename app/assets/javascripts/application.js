@@ -62,3 +62,19 @@ $(document).ready(function() {
     });
 
 });
+
+function hover(element) {
+  element.setAttribute('src', '/images/home-hover.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', '/images/home.png');
+}
+
+function hover(element) {
+  element.setAttribute('src', '/images/investment-hover.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', '/images/investment.png');
+}

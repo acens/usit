@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+ Usar essa lógica no JS :https://www.sitepoint.com/community/t/mouseover-multiple-images/3719/3
