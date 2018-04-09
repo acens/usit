@@ -304,7 +304,7 @@ footer {
     text-align: center
 }
 
-#iaantro {
+/* #iaantro {
     background: url('../images/background-main.jpeg') 100% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -321,7 +321,7 @@ footer {
     height: 100vh;
     text-align: center;
 
-		/* background: url(../images/background-main.jpeg) no-repeat center center fixed;
+		 background: url(../images/background-main.jpeg) no-repeat center center fixed;
 		 -webkit-background-size: cover;
 		 -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -337,8 +337,8 @@ footer {
 			 -ms-flex-align: center;
 					 align-items: center;
 
-		 text-align: center; */
-}
+		 text-align: center;
+} */
 
 
 #intro h3 {

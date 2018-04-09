@@ -15670,52 +15670,58 @@ body {
   font-weight: 400;
 }
 
+/* line 21, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+.service-info {
+  border-left-color: #66ccff;
+  border-left: 10px;
+}
+
 /*---------------------------------------
     Typorgraphy
 -----------------------------------------*/
-/* line 25, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 29, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-/* line 29, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 33, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h3, h5 {
   font-weight: 500;
   color: #66ccff;
   height: 20vh;
 }
 
-/* line 35, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 39, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h1 {
   font-size: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
-/* line 40, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 44, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h2 {
   font-size: 30px;
   text-transform: uppercase;
 }
 
-/* line 45, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 49, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h3 {
   line-height: 36px;
 }
 
-/* line 49, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 53, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h5 {
   letter-spacing: 1px;
   padding-top: 10px;
 }
 
-/* line 54, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 58, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 p {
   color: #707070;
   font-size: 14px;
   line-height: 24px;
 }
 
-/* line 60, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 65, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 a {
   text-decoration: none !important;
   outline: none;
@@ -15724,25 +15730,25 @@ a {
 /*---------------------------------------
     General
 -----------------------------------------*/
-/* line 69, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 74, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .section-title {
   margin-bottom: 50px;
   margin-top: 120px;
 }
 
-/* line 74, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 79, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #navbar6 {
   color: #61aef4;
 }
 
-/* line 78, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 83, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #overview,
 #register {
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
 
-/* line 84, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 89, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #photos, #tour,
 #detail, #video,
 #speakers,
@@ -15753,14 +15759,14 @@ a {
   padding-bottom: 5rem;
 }
 
-/* line 94, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 99, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #detail,
 #speakers, #sponsors,
 footer {
   text-align: center;
 }
 
-/* line 100, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 105, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #overview h3,
 #detail h3,
 #video h3,
@@ -15770,7 +15776,7 @@ footer {
   padding-bottom: 12px;
 }
 
-/* line 110, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 115, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #detail .btn,
 #intro .btn,
 #contact .btn,
@@ -15789,7 +15795,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 128, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 133, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #intro .btn-danger,
 #contact .btn-danger,
 #video .btn {
@@ -15797,33 +15803,33 @@ footer {
   border-color: transparent;
 }
 
-/* line 135, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 140, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact .btn,
 #video .btn {
   border-radius: 100px;
 }
 
-/* line 140, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 145, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #intro .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
 }
 
-/* line 146, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 151, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact .btn-danger:hover,
 #video .btn-danger:hover {
   background: #222;
 }
 
-/* line 151, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 156, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #intro .btn-default:hover {
   background: #ffffff;
   color: #333333;
   border-color: transparent;
 }
 
-/* line 157, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 162, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
@@ -15832,7 +15838,7 @@ footer {
 /*---------------------------------------
     Preloader section
 -----------------------------------------*/
-/* line 167, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 172, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .preloader {
   position: fixed;
   top: 0;
@@ -15847,7 +15853,7 @@ footer {
   background: none repeat scroll 0 0 #ffffff;
 }
 
-/* line 181, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 186, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .sk-rotating-plane {
   width: 50px;
   height: 50px;
@@ -15887,13 +15893,13 @@ footer {
 /*---------------------------------------
     Navigation Links section
 -----------------------------------------*/
-/* line 215, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 220, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar {
   margin-bottom: 0;
   background-color: #101010;
 }
 
-/* line 220, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 225, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .navbar-brand {
   color: #ffffff;
   font-weight: 600;
@@ -15901,7 +15907,7 @@ footer {
   line-height: 40px;
 }
 
-/* line 227, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 232, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .nav li a {
   color: #ddd;
   font-size: 12px;
@@ -15912,50 +15918,50 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 237, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 242, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .nav li a:hover {
   background: transparent;
   color: #66ccff;
 }
 
-/* line 242, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 247, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
   background-color: transparent;
 }
 
-/* line 247, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 252, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .nav li.active > a {
   background-color: transparent;
   color: #66ccff;
 }
 
-/* line 252, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 257, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .navbar-toggle {
   border: none;
   padding-top: 10px;
 }
 
-/* line 257, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 262, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .navbar-toggle {
   background-color: transparent;
 }
 
-/* line 261, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 266, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .custom-navbar .navbar-toggle .icon-bar {
   background: #ffffff;
   border-color: transparent;
 }
 
 @media (min-width: 768px) {
-  /* line 267, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 272, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   .custom-navbar {
     padding: 20px 0;
     border-bottom: 0;
     background: 0 0;
   }
 
-  /* line 272, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 277, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   .custom-navbar.top-nav-collapse {
     background: #101010;
     padding: 0;
@@ -15964,7 +15970,7 @@ footer {
 /*---------------------------------------
     Intro section
 -----------------------------------------*/
-/* line 284, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 289, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #intro {
   background: url("../images/background-main.jpg") 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
@@ -15983,7 +15989,7 @@ footer {
   text-align: center;
 }
 
-/* line 302, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 307, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #iaantro {
   background: url("../images/background-main.jpeg") 100% 0 repeat-y fixed;
   -webkit-background-size: cover;
@@ -16019,7 +16025,7 @@ footer {
   		 text-align: center; */
 }
 
-/* line 339, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 344, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #intro h3 {
   letter-spacing: 2px;
 }
@@ -16027,7 +16033,7 @@ footer {
 /*---------------------------------------
    Overview  section
 -----------------------------------------*/
-/* line 348, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 353, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #overview {
   position: relative;
   padding-bottom: 32px;
@@ -16035,7 +16041,7 @@ footer {
   height: 50vh;
 }
 
-/* line 355, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 360, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #three {
   background: #222;
 }
@@ -16043,13 +16049,13 @@ footer {
 /*---------------------------------------
     Detail section
 -----------------------------------------*/
-/* line 364, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 369, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #detail {
-  background: #ffffff;
+  background: #1d1c1c;
   color: #ffffff;
 }
 
-/* line 369, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 374, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #detail .fa {
   color: #61aef4;
   font-size: 48px;
@@ -16058,7 +16064,7 @@ footer {
 /*---------------------------------------
     Video section
 -----------------------------------------*/
-/* line 380, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 385, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #video iframe,
 #detail iframe {
   border: none;
@@ -16067,31 +16073,31 @@ footer {
 /*---------------------------------------
    Speakers section
 -----------------------------------------*/
-/* line 390, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 395, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #speakers {
   background: #f9f9f9;
 }
 
-/* line 394, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 399, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #speakers h3 {
   font-size: 18px;
   margin-bottom: 0px;
 }
 
-/* line 399, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 404, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #speakers h6 {
   color: #666;
   margin-top: 4px;
 }
 
-/* line 404, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 409, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #speakers img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-/* line 410, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 415, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #speakers .col-md-3 {
   display: block;
   width: 100%;
@@ -16100,7 +16106,7 @@ footer {
   margin-bottom: 22px;
 }
 
-/* line 418, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 423, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #speakers .speakers-wrapper {
   background: #ffffff;
   padding-bottom: 22px;
@@ -16109,46 +16115,46 @@ footer {
 /*---------------------------------------
    Program section
 -----------------------------------------*/
-/* line 428, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 433, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #program h4 {
   color: #808080;
   font-size: 12px;
 }
 
-/* line 433, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 438, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #program h3 {
   margin-top: 16px;
 }
 
-/* line 437, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 442, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #program .program-divider {
   border: 1px solid #f9f9f9;
   margin-top: 32px;
   margin-bottom: 42px;
 }
 
-/* line 443, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 448, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #program span {
   padding-right: 12px;
 }
 
-/* line 447, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 452, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #program img {
   border-radius: 50%;
 }
 
-/* line 451, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 456, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .nav-tabs {
   margin-bottom: 20px;
 }
 
-/* line 454, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 459, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
 }
 
-/* line 458, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 463, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .nav-tabs > li > a {
   color: #000000;
   font-weight: 600;
@@ -16158,12 +16164,12 @@ footer {
   border-radius: 0px;
 }
 
-/* line 466, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 471, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .nav-tabs > li > a:hover {
   background-color: transparent;
 }
 
-/* line 469, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 474, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -16174,7 +16180,7 @@ footer {
   border-bottom-color: #999;
 }
 
-/* line 478, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 483, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .tab-content {
   padding-top: 20px;
 }
@@ -16182,7 +16188,7 @@ footer {
 /*---------------------------------------
     Regsiter section
 -----------------------------------------*/
-/* line 487, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 492, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #register {
   background: url("../images/register-bg.jpg") 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
@@ -16191,7 +16197,7 @@ footer {
   color: #ffffff;
 }
 
-/* line 495, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 500, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #register .form-control {
   background: transparent;
   border: 2px solid #ffffff;
@@ -16200,12 +16206,12 @@ footer {
   margin-bottom: 16px;
 }
 
-/* line 503, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 508, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #register input {
   height: 45px;
 }
 
-/* line 507, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 512, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #register input[type="submit"] {
   background: #61aef4;
   border-radius: 100px;
@@ -16217,7 +16223,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 518, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 523, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #register input[type="submit"]:hover {
   background: #ffffff;
   color: #222;
@@ -16226,42 +16232,42 @@ footer {
 /*---------------------------------------
    Faq section
 -----------------------------------------*/
-/* line 528, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 533, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq {
   background: #f9f9f9;
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 
-/* line 534, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 539, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-group {
   margin-top: 32px;
 }
 
-/* line 538, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 543, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-group .panel {
   margin-bottom: 8px;
 }
 
-/* line 542, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 547, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-default {
   border: none;
 }
 
-/* line 546, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 551, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-default > .panel-heading {
   background: #f0f0f0;
   color: #505050;
 }
 
-/* line 551, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 556, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-heading {
   border: none;
   padding-top: 8px;
   padding-bottom: 6px;
 }
 
-/* line 557, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 562, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top: none;
   padding-top: 22px;
@@ -16269,7 +16275,7 @@ footer {
   padding-bottom: 22px;
 }
 
-/* line 564, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 569, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-heading .panel-title a[data-toggle="collapse"] {
   font-size: 18px;
   font-weight: 500;
@@ -16280,7 +16286,7 @@ footer {
   padding: 10px 15px;
 }
 
-/* line 574, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 579, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
   content: "-";
   display: block;
@@ -16291,7 +16297,7 @@ footer {
   transform: translateY(-50%);
 }
 
-/* line 584, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 589, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
   content: "+";
 }
@@ -16299,7 +16305,7 @@ footer {
 /*---------------------------------------
    Venue section
 -----------------------------------------*/
-/* line 593, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 598, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #venue {
   background: url("../images/venue-bg.jpg") 50% 0 repeat-y fixed;
   background-size: cover;
@@ -16308,13 +16314,13 @@ footer {
   padding-bottom: 7rem;
 }
 
-/* line 601, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 606, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #venue p {
   padding-top: 12px;
   padding-bottom: 18px;
 }
 
-/* line 606, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 611, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .allcolums {
   margin: 0 auto;
   text-align: center;
@@ -16322,7 +16328,7 @@ footer {
   height: 50vh;
 }
 
-/* line 614, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 619, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .colum1 {
   float: left;
   margin: 0px 15px 0px 15px;
@@ -16331,7 +16337,7 @@ footer {
   color: #66ccff;
 }
 
-/* line 621, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 626, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .colum2 {
   float: left;
   margin: 0px 15px 0px 0px;
@@ -16340,7 +16346,7 @@ footer {
   color: #66ccff;
 }
 
-/* line 628, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 633, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .colum3 {
   float: left;
   margin: 0px 0px 0px 0px;
@@ -16352,7 +16358,7 @@ footer {
 /*---------------------------------------
    Sponsors section
 -----------------------------------------*/
-/* line 641, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 646, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #sponsors img {
   margin-top: 18px;
 }
@@ -16360,26 +16366,26 @@ footer {
 /*---------------------------------------
    Contact section
 -----------------------------------------*/
-/* line 650, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 655, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact {
   background: url("../images/contact-bg.jpg") 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
 }
 
-/* line 656, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 661, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
 }
 
-/* line 661, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 666, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact .contact_detail {
   background: #ffffff;
   padding: 5rem 5rem 12rem 5rem;
 }
 
-/* line 666, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 671, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact .form-control {
   background: transparent;
   border: none;
@@ -16390,17 +16396,17 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 676, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 681, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact .form-control:focus {
   border-bottom-color: #999;
 }
 
-/* line 680, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 685, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact input {
   height: 45px;
 }
 
-/* line 684, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 689, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact input[type="submit"] {
   background: #222;
   border-radius: 100px;
@@ -16412,7 +16418,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 695, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 700, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #contact input[type="submit"]:hover {
   background: #f2545f;
 }
@@ -16420,13 +16426,13 @@ footer {
 /*---------------------------------------
    Footer section
 -----------------------------------------*/
-/* line 704, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 709, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 footer {
   background-attachment: fixed;
 }
 
 /* Back top */
-/* line 711, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 716, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .go-top {
   background-color: #222;
   bottom: 2em;
@@ -16443,7 +16449,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-/* line 727, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 732, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .go-top:hover {
   background: #f2545f;
   color: #ffffff;
@@ -16452,20 +16458,20 @@ footer {
 /*---------------------------------------
    Social icon
 -----------------------------------------*/
-/* line 736, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 741, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .social-icon {
   position: relative;
   padding: 0;
   margin: 0;
 }
 
-/* line 742, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 747, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .social-icon li {
   display: inline-block;
   list-style: none;
 }
 
-/* line 747, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 752, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .social-icon li a {
   color: #666;
   border-radius: 100px;
@@ -16479,7 +16485,7 @@ footer {
   vertical-align: middle;
 }
 
-/* line 760, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 765, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .social-icon li a:hover {
   background: #f2545f;
   color: #ffffff;
@@ -16489,85 +16495,85 @@ footer {
    Responsive styles
 -----------------------------------------*/
 @media (max-width: 980px) {
-  /* line 772, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 777, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   p {
     font-size: 13px;
   }
 
-  /* line 774, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 779, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   .custom-navbar .navbar-brand {
     font-size: 1.1rem;
   }
 
-  /* line 778, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 783, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   .custom-navbar .nav li a {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 20px;
   }
 
-  /* line 783, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 788, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #intro {
     height: auto;
   }
 
-  /* line 785, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 790, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #video iframe,
   #detail iframe {
     margin-top: 42px;
   }
 
-  /* line 790, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 795, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #contact .contact_detail {
     background: #ffffff;
     padding: 10rem 3rem 10rem 5rem;
   }
 }
 @media (max-width: 768px) {
-  /* line 799, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 804, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   .custom-navbar .navbar-brand {
     line-height: 20px;
   }
 
-  /* line 803, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 808, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #overview img,
   #detail .col-md-4,
   #register form {
     padding-top: 32px;
   }
 
-  /* line 809, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 814, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   .nav-tabs > li > a {
     font-size: 13px;
   }
 
-  /* line 813, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 818, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #program img {
     padding-bottom: 32px;
   }
 
-  /* line 817, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 822, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #sponsors img {
     padding-top: 22px;
   }
 
-  /* line 821, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 826, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #contact .contact_detail {
     margin-top: 82px;
   }
 }
 @media (max-width: 760px) {
-  /* line 829, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+  /* line 834, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
   #intro {
     height: 100vh;
   }
 }
-/* line 835, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 840, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .menufooter {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 840, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 845, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 a.link-footer {
   display: inline-block;
   border-radius: 15px;
@@ -16575,7 +16581,7 @@ a.link-footer {
   position: relative;
 }
 
-/* line 848, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 853, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 div.footer-img {
   background-image: url("/images/VistoPreto.png");
   background-repeat: no-repeat;
@@ -16608,7 +16614,7 @@ div.footer-img:after{
 		left: 8%;
 }
  */
-/* line 879, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 884, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 div.footer-img:hover {
   background-color: #61aed7;
   background-image: url("/images/VistoAzul.png");
@@ -16617,29 +16623,30 @@ div.footer-img:hover {
   background-size: 80px 50px;
 }
 
-/* line 887, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 892, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 div.footer-img .img1 {
   position: absolute;
+  background-image: url("/images/homeb.png");
   top: 50px;
 }
 
-/* line 893, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 899, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 div.footer-img .img2 {
   position: absolute;
 }
 
-/* line 897, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 903, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 div.footer-img .img3 {
   position: absolute;
 }
 
-/* line 902, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 908, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 div.footer-img .img4 {
   position: absolute;
   padding-right: 0px;
 }
 
-/* line 908, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 914, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 h1.tituloF {
   color: #222;
   text-align: center;
@@ -16647,7 +16654,7 @@ h1.tituloF {
   font-size: 30px;
 }
 
-/* line 915, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
+/* line 921, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 .row {
   box-sizing: border-box;
   width: 100%;
@@ -16878,10 +16885,11 @@ h1.tituloF {
 #intro h2 {
   font-family: 'Open Sans', sans-serif;
   text-transform: none;
-  line-height: 0.5;
+  line-height: 1;
+  display: inline-block;
 }
 
-/* line 22, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 23, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .textnavright {
   padding-left: 70px;
   padding-right: 30px;
@@ -16892,7 +16900,7 @@ h1.tituloF {
   color: #66ccff !important;
 }
 
-/* line 33, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 34, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .text-right {
   float: right;
   color: #66ccff !important;
@@ -16901,12 +16909,12 @@ h1.tituloF {
   font-weight: auto;
 }
 
-/* line 42, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 43, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .navbar {
   background-color: black !important;
 }
 
-/* line 46, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 47, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .pre-loader {
   position: fixed;
   top: 0;
@@ -16917,7 +16925,7 @@ h1.tituloF {
   z-index: 99999;
 }
 
-/* line 56, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 57, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .pre-loader .preloader-gif {
   display: block;
   width: 100px;
@@ -16929,39 +16937,39 @@ h1.tituloF {
   background: url("load.gif") no-repeat;
 }
 
-/* line 68, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 69, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .img-icon {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 75, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 76, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .icon-airplane {
   background-image: url(icon/icon-airplane.svg);
 }
 
-/* line 79, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 80, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .icon-bookshelf {
   background-image: url(icon/icon-bookshelf.svg);
 }
 
-/* line 83, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 84, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .icon-place {
   background-image: url(icon/icon-place.svg);
 }
 
-/* line 87, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 88, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #register option {
   color: black;
 }
 
-/* line 89, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 90, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #register select {
   color: white !important;
 }
 
-/* line 94, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 95, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #intro h1,
 #intro h2,
 #intro h3,
@@ -16971,60 +16979,60 @@ h1.tituloF {
   text-shadow: 1px 1px black;
 }
 
-/* line 103, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 104, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .nome_descritivo {
-  font-size: 500%;
+  font-size: 450%;
 }
 
-/* line 108, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 109, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .sgo6_header {
   background-color: black;
 }
 
-/* line 112, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 113, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .sgo6_header i {
   color: #61aef4;
 }
 
-/* line 116, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 117, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .text-cap {
   text-transform: capitalize;
 }
 
-/* line 120, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 121, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .float-left {
   float: left;
 }
 
-/* line 124, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 125, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .float-right {
   float: right;
 }
 
-/* line 128, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 129, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #faq .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 133, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 135, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #detail .wow {
   margin-left: 0px;
 }
 
-/* line 137, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 139, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .accommodation img {
   width: 850;
   height: 566;
 }
 
-/* line 142, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 144, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .hidden {
   display: none;
 }
 
 /*flash*/
-/* line 146, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 148, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -17032,7 +17040,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 153, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 155, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-alert {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -17040,7 +17048,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 160, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 162, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -17048,7 +17056,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 167, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 169, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-notice {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -17056,20 +17064,30 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 175, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 177, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #detail .ion-ios-world {
   font-size: 48px;
 }
 
-/* line 179, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 181, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #intro {
   padding-top: 14rem;
 }
 
-/* line 183, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 185, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #venue,
 #contactform,
 #investmentpage {
   padding-top: 14rem;
   padding-bottom: 14rem;
+}
+
+/* line 193, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+.fancy {
+  margin: 20px auto;
+  padding: 50px;
+  border: solid #66ccff 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
