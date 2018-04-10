@@ -25143,31 +25143,70 @@ document.addEventListener('page:change', function() {
 $(document).ready(function() {
 
 
-  $(window).on('load',function(){
-    $('.pre-loader').delay(400).fadeOut(500);
-  });
-  	// $('select').css('color','#ffffff');
+    $(window).on('load', function() {
+        $('.pre-loader').delay(400).fadeOut(500);
+    });
+    // $('select').css('color','#ffffff');
     // $('select').change(function() {
     //    var current = $('#select').val();
     //   $('select').css('color','#ffffff');
     // });
 
     $("#owl-images").owlCarousel({
-      items:1,
-      margin: 10,
-      loop:true,
-      autoplay:true,
-      autoplayTimeout: 2000,
-      autoplayHoverPause:true
+        items: 1,
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true
     });
 
     $("#owl-testimonials").owlCarousel({
-      items:1,
-      margin: 10,
-      loop:true,
-      autoplay:true,
-      autoplayTimeout: 2500,
-      autoplayHoverPause:true
+        items: 1,
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true
     });
 
+});
+
+function change(v) {
+    if (v == "img1") {
+        img1.setAttribute('src', '/images/home-hover.png');
+    } else if (v == "img2") {
+        img2.setAttribute('src', '/images/next-hover.png');
+    } else if (v == "img3") {
+        img3.setAttribute('src', '/images/investment-hover.png');
+    } else if (v == "img4") {
+        img4.setAttribute('src', '/images/contact-hover.png');
+    }
+}
+
+function changeReset(v) {
+    if (v == "img1") {
+        img1.setAttribute('src', '/images/home.png');
+    } else if (v == "img2") {
+        img2.setAttribute('src', '/images/next.png');
+    } else if (v == "img3") {
+        img3.setAttribute('src', '/images/investment.png');
+    } else if (v == "img4") {
+        img4.setAttribute('src', '/images/contact.png');
+    }
+}
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 });

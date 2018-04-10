@@ -2234,8 +2234,8 @@ pre code {
 
 /* line 5, /home/stark/Documentos/projects/usit/app/assets/stylesheets/bootstrap.min.css */
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -15989,42 +15989,41 @@ footer {
   text-align: center;
 }
 
-/* line 307, /home/stark/Documentos/projects/usit/app/assets/stylesheets/style.css */
-#iaantro {
-  background: url("../images/background-main.jpeg") 100% 0 repeat-y fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-  		/* background: url(../images/background-main.jpeg) no-repeat center center fixed;
-  		 -webkit-background-size: cover;
-  		 -moz-background-size: cover;
-  		 -o-background-size: cover;
-  		 background-size: cover;
-  
-  		 color: #ffffff;
-  		 display: -webkit-box;
-  		 display: -webkit-flex;
-  			display: -ms-flexbox;
-  		 display: flex;
-  		 -webkit-box-align: center;
-  			-webkit-align-items: center;
-  			 -ms-flex-align: center;
-  					 align-items: center;
-  
-  		 text-align: center; */
-}
+/* #iaantro {
+    background: url('../images/background-main.jpeg') 100% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: center;
 
+		 background: url(../images/background-main.jpeg) no-repeat center center fixed;
+		 -webkit-background-size: cover;
+		 -moz-background-size: cover;
+		 -o-background-size: cover;
+		 background-size: cover;
+
+		 color: #ffffff;
+		 display: -webkit-box;
+		 display: -webkit-flex;
+			display: -ms-flexbox;
+		 display: flex;
+		 -webkit-box-align: center;
+			-webkit-align-items: center;
+			 -ms-flex-align: center;
+					 align-items: center;
+
+		 text-align: center;
+} */
 /* line 344, /home/stark/Documentos/projects/usit/app/assets/stylesheets/style.css */
 #intro h3 {
   letter-spacing: 2px;
@@ -16051,7 +16050,7 @@ footer {
 -----------------------------------------*/
 /* line 369, /home/stark/Documentos/projects/usit/app/assets/stylesheets/style.css */
 #detail {
-  background: #ffffff;
+  background: #1d1c1c;
   color: #ffffff;
 }
 
@@ -16984,55 +16983,55 @@ h1.tituloF {
   font-size: 450%;
 }
 
-/* line 109, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 110, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .sgo6_header {
   background-color: black;
 }
 
-/* line 113, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 114, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .sgo6_header i {
   color: #61aef4;
 }
 
-/* line 117, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 118, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .text-cap {
   text-transform: capitalize;
 }
 
-/* line 121, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 122, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .float-left {
   float: left;
 }
 
-/* line 125, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 126, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .float-right {
   float: right;
 }
 
-/* line 129, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 130, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 #faq .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 135, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 136, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 #detail .wow {
   margin-left: 0px;
 }
 
-/* line 139, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 140, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .accommodation img {
   width: 850;
   height: 566;
 }
 
-/* line 144, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 145, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .hidden {
   display: none;
 }
 
 /*flash*/
-/* line 148, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 149, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -17040,7 +17039,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 155, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 156, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .alert-alert {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -17048,7 +17047,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 162, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 163, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -17056,7 +17055,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 169, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 170, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .alert-notice {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -17064,17 +17063,17 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 177, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 178, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 #detail .ion-ios-world {
   font-size: 48px;
 }
 
-/* line 181, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 182, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 #intro {
   padding-top: 14rem;
 }
 
-/* line 185, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 186, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 #venue,
 #contactform,
 #investmentpage {
@@ -17082,7 +17081,7 @@ h1.tituloF {
   padding-bottom: 14rem;
 }
 
-/* line 193, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+/* line 194, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
 .fancy {
   margin: 20px auto;
   padding: 50px;
@@ -17090,4 +17089,25 @@ h1.tituloF {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/* line 212, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+.usit-footer {
+  clear: both;
+}
+
+/* line 216, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+.contact-icons {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/* line 222, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+.contact-socials {
+  width: 140px;
+}
+
+/* line 226, /home/stark/Documentos/projects/usit/app/assets/stylesheets/application.scss */
+div.footer {
+  margin-bottom: 50px;
 }
