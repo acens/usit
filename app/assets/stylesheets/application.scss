@@ -226,3 +226,11 @@ text-align: left;
 div.footer{
     margin-bottom: 50px;
 }
+
+
+@media only screen and (max-width: 800px) {
+
+.nome_descritivo{
+font-size: 350%
+    }
+}
