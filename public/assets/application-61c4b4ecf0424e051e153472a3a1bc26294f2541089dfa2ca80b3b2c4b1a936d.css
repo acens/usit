@@ -2234,8 +2234,8 @@ pre code {
 
 /* line 5, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/bootstrap.min.css */
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -15716,9 +15716,10 @@ h5 {
 
 /* line 58, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 p {
-  color: #707070;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 /* line 65, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
@@ -15989,42 +15990,41 @@ footer {
   text-align: center;
 }
 
-/* line 307, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
-#iaantro {
-  background: url("../images/background-main.jpeg") 100% 0 repeat-y fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-  		/* background: url(../images/background-main.jpeg) no-repeat center center fixed;
-  		 -webkit-background-size: cover;
-  		 -moz-background-size: cover;
-  		 -o-background-size: cover;
-  		 background-size: cover;
-  
-  		 color: #ffffff;
-  		 display: -webkit-box;
-  		 display: -webkit-flex;
-  			display: -ms-flexbox;
-  		 display: flex;
-  		 -webkit-box-align: center;
-  			-webkit-align-items: center;
-  			 -ms-flex-align: center;
-  					 align-items: center;
-  
-  		 text-align: center; */
-}
+/* #iaantro {
+    background: url('../images/background-main.jpeg') 100% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    text-align: center;
 
+		 background: url(../images/background-main.jpeg) no-repeat center center fixed;
+		 -webkit-background-size: cover;
+		 -moz-background-size: cover;
+		 -o-background-size: cover;
+		 background-size: cover;
+
+		 color: #ffffff;
+		 display: -webkit-box;
+		 display: -webkit-flex;
+			display: -ms-flexbox;
+		 display: flex;
+		 -webkit-box-align: center;
+			-webkit-align-items: center;
+			 -ms-flex-align: center;
+					 align-items: center;
+
+		 text-align: center;
+} */
 /* line 344, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/style.css */
 #intro h3 {
   letter-spacing: 2px;
@@ -16981,58 +16981,58 @@ h1.tituloF {
 
 /* line 104, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .nome_descritivo {
-  font-size: 450%;
+  font-size: 600%;
 }
 
-/* line 109, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 110, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .sgo6_header {
   background-color: black;
 }
 
-/* line 113, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 114, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .sgo6_header i {
   color: #61aef4;
 }
 
-/* line 117, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 118, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .text-cap {
   text-transform: capitalize;
 }
 
-/* line 121, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 122, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .float-left {
   float: left;
 }
 
-/* line 125, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 126, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .float-right {
   float: right;
 }
 
-/* line 129, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 130, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #faq .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 135, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 136, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #detail .wow {
   margin-left: 0px;
 }
 
-/* line 139, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 140, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .accommodation img {
   width: 850;
   height: 566;
 }
 
-/* line 144, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 145, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .hidden {
   display: none;
 }
 
 /*flash*/
-/* line 148, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 149, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -17040,7 +17040,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 155, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 156, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-alert {
   background-color: #f2dede;
   border-color: #eed3d7;
@@ -17048,7 +17048,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 162, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 163, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -17056,7 +17056,7 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 169, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 170, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .alert-notice {
   background-color: #dff0d8;
   border-color: #d6e9c6;
@@ -17064,17 +17064,17 @@ h1.tituloF {
   text-align: left;
 }
 
-/* line 177, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 178, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #detail .ion-ios-world {
   font-size: 48px;
 }
 
-/* line 181, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 182, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #intro {
   padding-top: 14rem;
 }
 
-/* line 185, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 186, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 #venue,
 #contactform,
 #investmentpage {
@@ -17082,12 +17082,43 @@ h1.tituloF {
   padding-bottom: 14rem;
 }
 
-/* line 193, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+/* line 194, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
 .fancy {
   margin: 20px auto;
-  padding: 50px;
-  border: solid #66ccff 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: solid #66ccff 0.5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/* line 207, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+.usit-footer {
+  clear: both;
+}
+
+/* line 211, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+.contact-icons {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/* line 217, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+.contact-socials {
+  width: 140px;
+}
+
+/* line 221, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+div.footer {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* line 228, /home/acens/Documentos/projetos/usit/app/assets/stylesheets/application.scss */
+  .nome_descritivo {
+    font-size: 350%;
+  }
 }

@@ -19,7 +19,7 @@ body {
 }
 
 .service-info{
-	border-left-color:#66ccff;
+	border-left-color:#87d5b6;
 	border-left:10px;
 }
 
@@ -32,8 +32,8 @@ h1,h2,h3,h4,h5,h6 {
 
 h3,h5 {
   font-weight: 500;
-  color:#66ccff;
-  height:20vh;
+  color:#87d5b6;
+  height:7vh;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  line-height: 36px;
+  line-height: 20px;
 }
 
 h5 {
@@ -56,15 +56,16 @@ h5 {
 }
 
 p {
-    color: #66ccff;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
-
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #87d5b6;
 }
 
 a {
   text-decoration: none !important;
   outline: none;
+  color: #87d5b6 !important;
 }
 
 
@@ -241,7 +242,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #87d5b6;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -251,7 +252,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color: #87d5b6;
 }
 
 .custom-navbar .navbar-toggle {
@@ -620,14 +621,14 @@ footer {
 	float: left;
 	margin: 0px 15px 0px 15px;
 	text-align: justify; width: 30%;
-	color: #66ccff;
+	color: #87d5b6;
 }
 
 .colum2{
 	float: left;
 	margin: 0px 15px 0px 0px;
 	text-align: justify; width: 30%;
-	color: #66ccff;
+	color: #87d5b6;
 }
 
 .colum3{
@@ -635,7 +636,7 @@ footer {
 	margin: 0px 0px 0px 0px;
 	text-align: justify;
 	width: 30%;
-	color: #66ccff;
+	color: #87d5b6;
 }
 
 
@@ -858,7 +859,7 @@ div.footer-img{
 	position: absolute;
 	font-family: 'Poppins', sans-serif;
     font-style: normal;
-	background-color: #66ccff ;
+	background-color: #87d5b6 ;
 	width: 23vw;
 	height: 80px;
 	position: relative;
